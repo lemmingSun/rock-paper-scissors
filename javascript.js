@@ -1,7 +1,5 @@
 const gameObjects = ["rock", "paper", "scissors"];
 
-let computerScore = 0;
-let humanScore = 0;
 
 let rounds = 5;
 
@@ -34,6 +32,9 @@ function getHumanChoice(){
 
 
 function playGame(rounds) {
+    let computerScore = 0;
+    let humanScore = 0;
+    
     for (rounds; rounds>0, rounds--;){
 
     function playRound(humanChoice, computerChoice){
