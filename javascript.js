@@ -34,7 +34,7 @@ function getHumanChoice(){
 function playGame(rounds) {
     let computerScore = 0;
     let humanScore = 0;
-    
+
     for (rounds; rounds>0, rounds--;){
 
     function playRound(humanChoice, computerChoice){
@@ -55,7 +55,7 @@ function playGame(rounds) {
         case 2: ++humanScore;
         message = "Yeah!, " + gameObjects[playerObjectIndex] + " wins, cause it's stronger than " +gameObjects[computerObjectIndex] + "! :)";
         break;
-        case 1: message = gameObjects[playerObjectIndex] + " and " + gameObjects[computerObjectIndex] + " is same.";
+        case 1: message = gameObjects[playerObjectIndex] + " and " + gameObjects[computerObjectIndex] + " is same.  player +0  Computer+0";
         break;
     }
     console.log("Computer: " + computerScore);
